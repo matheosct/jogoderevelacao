@@ -79,8 +79,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8086241362765434"
-     crossorigin="anonymous"></script></head>
+      <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8086241362765434" crossOrigin="anonymous"></script>
+      </head>
       <body className="font-sans antialiased">
         {children}
         <Analytics />
